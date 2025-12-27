@@ -33,10 +33,13 @@ Soboro is an experimental OS project that aims to implement the entire userland 
 
 ```
 soboro/
-├── README.md
+├── README.md                     # Project overview (English)
+├── README.ja.md                  # Project overview (Japanese)
 ├── CLAUDE.md                     # Claude Code development guidelines
-├── CONTRIBUTING.md
+├── CONTRIBUTING.md               # Contribution guide (English)
+├── CONTRIBUTING.ja.md            # Contribution guide (Japanese)
 ├── LICENSE
+├── .gitignore
 ├── Package.swift                 # Root manifest (workspace)
 │
 ├── docs/                         # Documentation
