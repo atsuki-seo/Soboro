@@ -1,0 +1,61 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+
+# Build artifacts
+*.o
+*.a
+*.dylib
+*.so
+*.dSYM/
+
+# Distribution images (keep configuration, ignore built images)
+dist/images/*.img
+dist/images/*.iso
+dist/images/*.qcow2
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Documentation build output
+.docc-build/
+
+# Test output
+.test-results/
+*.xcresult/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Secrets (should never be committed)
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+settings.local.json
+
+# Claude Code (session-specific)
+.claude/
